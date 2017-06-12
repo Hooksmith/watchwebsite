@@ -1,0 +1,152 @@
+	.container{
+	width: 70%;
+	border: 3px solid lavender;
+	background-color: white;
+}
+	hr{
+		width: 100px;
+		border-width: 10px;
+		border-color: rgb(110, 206, 188);
+	}
+	.img1{
+		margin-top:5px;
+		margin-left: 25%;
+		height: 110px;		
+		width:150px;
+		background: white;
+	}
+	.img2{
+		height: 130px;	
+		width: 350px;
+		background-color: transparent;
+	}
+	h1{
+		margin-top:1em;
+		text-align: center;
+		color: black;
+		font-weight: bold;
+	}
+	.form-control{
+		height: 70px;
+		border: 1px solid lavender;
+		margin-top: 2em;
+		color: gray;
+		font-weight: bold;
+		border-radius: 0px;
+		}
+	.b{
+		font-weight: bold;
+		font-family: fantasy;
+		font-size: 38px;
+		text-decoration: none;
+		color: white;
+		background: rgb(110, 206, 188);
+		border-radius: 5px;
+		border-bottom: solid rgb(15, 137, 117) 5px; 
+		padding: 0.5em 2em 0.5em 2em;
+		margin-top: 1em;
+	}
+	.b a{
+		color: white;
+	}
+	a:hover{
+		text-decoration: none;
+		color: white;
+	}
+	a:link{
+		text-decoration: none;
+		color: white;
+	}
+	a:focus{
+		text-decoration: none;
+		color: white;
+	}
+
+/*webpage1*/
+	.a{
+		font-weight: bold;
+		font-family: Time New Romance;
+		font-size: 25px;
+		text-decoration: none;
+		color: white;
+		background: rgb(110, 206, 188);
+		border-radius: 5px;
+		padding-left:2em;
+		padding-right: 2em;
+		height:30px;
+		padding-bottom:40px;
+		padding-top:0px;
+		margin-top:13px;
+	}
+	.test{
+		position:fixed;
+    	height:100px;
+    	background-color:white;
+    	bottom:0px;
+    	left:205px;
+    	right:205px;
+    	margin-bottom:100px;
+    	border: 1px solid lavender;
+    	z-index: 100;
+    	color: black;
+	}
+	.text{
+		padding-bottom:20px;
+	}
+	#img{
+		width: 100%;
+	}
+
+	.topa{
+    border: 1px solid rgb(66,139,202);
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    background-color: rgb(66,139,202);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+	}
+	.align{
+		text-align: center;
+	}
+	.topa1{
+    border: 1px solid rgb(242,174,67);
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    background-color: rgb(242,174,67);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+	}
+	.align1{
+		text-align: center;
+	}
+	.test1{
+		background: red;
+		position: absolute;
+		top:18%;
+  		left: 0px;
+  		right: 0px;
+  		width: 40%;
+  		margin: 0 auto;
+  		text-align: center;
+  		z-index: 99;
+  		border-radius: 5px;
+  		border: 5px solid lavender;
+  		background-color: white;
+  		color: black;
+	}
+	.full-abs{
+		position: absolute;
+    	height: 100%;
+    	width: 100%;
+    	background: rgba(0, 0, 0, 0.29);
+   		z-index: 99;
+    	left: 0;
+    	top: 0;
+	}
+	body{
+		position: relative;
+	}
